@@ -12,41 +12,35 @@ window['mcpherTreeData'] =
       "nodeFocus": true,
       "linkDistance": 150,
       "charge": -220,
-      "nodeResize": "count",
-      "nodeLabel": "label",
+      "nodeResize": "size",
+      "nodeLabel": "name",
       "linkName": "tag"
     },
     "data": {
       "nodes": [
         {
-          "name": "Home",
-          "count": 100,
+          "name": "None1",
+          "size": 100,
           "group": "vbaExcel",
-          "linkCount": 100,
-          "label": "Services",
-          "userCount": true,
-          "url": "https://sites.google.com/a/mcpher.com/share/Home",
-          "shortName": "Home"
+          "userCount": true
         },
         {
-          "name": "vbaExcel",
-          "count": 1358,
+          "name": "None2",
+          "size": 1350,
           "group": "vbaExcel",
-          "linkCount": 235,
-          "label": "Services",
-          "userCount": true,
-          "url": "https://sites.google.com/a/mcpher.com/share/Home",
-          "shortName": "vbaExcel"
+          "userCount": true
         },
         {
-          "name": "excelquirks",
-          "count": 84,
+          "name": "None3",
+          "size": 84,
           "group": "d3",
-          "linkCount": 16,
-          "label": "Excel Liberation",
-          "userCount": true,
-          "url": "https://sites.google.com/a/mcpher.com/share/Home/excelquirks",
-          "shortName": "excelquirks"
+          "userCount": true
+        },
+        {
+          "name": "None4",
+          "size": 84,
+          "group": "d3",
+          "userCount": true
         }
       ],
       "links": [
@@ -54,22 +48,19 @@ window['mcpherTreeData'] =
           "source": 0,
           "target": 1,
           "depth": 90,
-          "count": 1,
-          "linkName": "https://sites.google.com/a/mcpher.com/share/Home"
+          "size": 1
         },
         {
           "source": 1,
           "target": 2,
           "depth": 90,
-          "count": 100,
-          "linkName": "https://sites.google.com/a/mcpher.com/share/Home/excelquirks"
+          "size": 1000
         },
         {
           "source": 2,
           "target": 0,
           "depth": 9,
-          "count": 1,
-          "linkName": "https://sites.google.com/a/mcpher.com/share/Home/excelquirks"
+          "size": 1
         }
       ]
     }

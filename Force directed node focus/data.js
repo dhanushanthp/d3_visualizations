@@ -47,20 +47,17 @@ window['mcpherTreeData'] =
         {
           "source": 0,
           "target": 1,
-          "depth": 90,
           "size": 1
         },
         {
           "source": 1,
           "target": 2,
-          "depth": 90,
-          "size": 1000
+          "size": 3
         },
         {
           "source": 2,
           "target": 0,
-          "depth": 9,
-          "size": 1
+          "size": 6
         }
       ]
     }

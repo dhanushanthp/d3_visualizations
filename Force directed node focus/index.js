@@ -1,5 +1,4 @@
 function doTheTreeViz(control) {
-
     var svg = control.svg;
 
     var force = control.force;
@@ -19,6 +18,7 @@ function doTheTreeViz(control) {
         .attr("x1", function (d) {
             return d.source.x;
         })
+        .attr("style", function(d) {return ("stroke-width:" + d.size + "px;");}) // Change the weight of the link
         .attr("y1", function (d) {
             return d.source.y;
         })
